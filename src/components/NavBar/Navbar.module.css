@@ -1,0 +1,26 @@
+.navLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.navLink {
+  display: flex;
+  gap: 1.2px;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  &:hover {
+    cursor: pointer;
+    color: rgb(184, 86, 5);
+  }
+  &:active {
+    color: rgb(10, 62, 176);
+    border: none;
+  }
+}
+.navLink sup {
+  color: rgb(184, 86, 5);
+  font-weight: bold;
+  margin-bottom: 4px;
+  
+}

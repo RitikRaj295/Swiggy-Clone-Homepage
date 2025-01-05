@@ -1,0 +1,106 @@
+.container{
+    height: auto;
+    width: 80vw;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 8vh;
+    display: flex;
+    gap: 2vw;
+    overflow: hidden;
+
+
+}
+.cardBoxes{
+    flex:1,1,0;
+    height: auto;
+    width: 50vw;
+    box-shadow: 3px 1px  1px  rgba(53, 52, 52, 0.6); 
+    border-radius: .66rem;
+
+}
+.cardBox{
+    flex:1,1,0;
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: hidden;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        transition-duration: 1s;
+    }
+    
+
+
+
+}
+
+.cardBox img{
+    flex:1,1,0;
+    height: 100px;
+    width: 130px;
+    border-radius: .6rem;
+    
+   
+}
+.overlay{
+         height: 100%;
+         width: 100%;
+         position: absolute;
+         top:0;
+         display: flex;
+         align-items: end;
+         color: white;
+         font-size: .6rem;
+         font-weight: bold;
+         padding-left:5px ;
+         border-radius: .6rem;
+         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0) 60%,rgba(0,0,0,1) );
+}
+.cardDetails{
+    height: auto;
+    width:98%;
+    margin-left: 2%;
+}
+
+.title{
+    margin-top: 4px;
+    font-size: .75rem;
+    font-weight: 550;
+}
+.ratingTiming{
+    display: flex;
+    flex-direction: row;
+    gap:8px ;
+    font-size: .65rem;
+    
+}
+.rate{
+    display: flex;
+    gap: 1px;  
+}
+.location{
+    font-size: .7rem;
+    color: gray;
+    
+}
+
+
+@media (max-width:500px){
+    .container{
+        height: auto;
+        width: 93vw;
+        margin:auto;
+        margin-top: 5px;
+        margin-bottom: 8vh;
+        display: flex;
+        gap: 2vw;
+        overflow: hidden;
+        border:1px solid black;
+    
+    
+    }
+}

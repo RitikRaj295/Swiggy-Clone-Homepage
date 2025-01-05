@@ -1,0 +1,33 @@
+.container{
+    margin:auto;
+    width: 80vw;
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+   
+}
+
+.boxImage img{
+    height: 25vh;
+    width: 10vw;
+    flex: 1 1 0;
+
+}
+
+@media (max-width:500px){
+    .container{
+        margin:auto;
+        width: 95vw;
+        display: flex;
+        justify-content: start;
+        overflow: hidden;
+       
+    }
+    
+    .boxImage img{
+        height: 25vh;
+        width: 16vw;
+        flex: 1 1 0;
+    
+    }
+}

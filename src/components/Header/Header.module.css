@@ -1,0 +1,118 @@
+.header{
+    padding: 7px;
+    box-shadow: 5px 5px  10px gray;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 9999;
+}
+.container{
+    height:7vh;
+    width: 80vw;
+    margin: auto;
+    padding: 1px ;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.logo{
+    height: 100%;
+    width: 3rem;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.location{
+    font-size: .5rem;
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location span{
+    font-weight: bold;
+    border-bottom: .7px solid;
+    margin-right: 2px;
+    color: black;
+}
+.icon{
+    font-size: 13px;
+    color: rgb(184, 86, 5);
+    cursor: pointer;
+    
+}
+.overlay{
+    background-color: rgb(0,0,0,0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    transition-duration:500ms ;
+
+}
+.sideMenu{
+height: 100vh;
+width: 40vw;
+background-color: white;
+border-radius: 0px 20px 20px 0px;
+position: absolute;
+transition-duration: 700ms;
+}
+
+.navTag{
+    width: 73%;
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+}
+
+@media (max-width: 500px) {
+   .navTag{
+    visibility: hidden;
+    width: 0px;
+   }
+   .header{
+    padding: 10px;
+    box-shadow: 5px 5px  10px gray;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 9999;
+}
+   .container{
+    display: flex;
+    align-items: center;
+   }
+   .logo{
+    height: 100%;
+    width: 5rem;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+   
+   .location{
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.location span{
+    font-weight: bold;
+    border-bottom: .7px solid;
+    margin-right: 2px;
+    color: black;
+}
+.icon{
+    font-size: 15px;
+    color: rgb(184, 86, 5);
+    cursor: pointer;
+    
+    
+}
+  }

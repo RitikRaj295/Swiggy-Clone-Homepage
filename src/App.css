@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+hr{
+    margin: auto;
+    width: 80vw;
+    border: .2px solid rgb(203, 199, 199);
+}

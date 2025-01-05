@@ -1,0 +1,51 @@
+.container{
+    
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.Buttons{
+    display: flex;
+    gap: 6px;
+}
+.Buttons button{
+   opacity: .6;
+   background-color: rgb(163, 160, 160);
+   height: 1rem;
+   width: 1rem;
+   color: black;
+   font-size: 10px;
+   font-weight: bold;
+    border-radius: 5rem;
+    border: 1px solid black;
+    line-height: 50%;
+    padding: 2px;
+    cursor: pointer;
+    &:active{
+       
+        border: 1px solid white;
+        background-color: rgb(184, 86, 5);
+        color: white;
+        opacity: 1;
+    }
+}
+
+@media (max-width:500px){
+    .container{
+    
+        margin: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 93vw;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        
+    }
+}

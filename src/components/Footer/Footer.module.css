@@ -1,0 +1,26 @@
+.container{
+    height: 30vh;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    padding: 0 20px;
+
+}
+.logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+.text{
+    display: flex;
+    gap: 5px;
+
+}
