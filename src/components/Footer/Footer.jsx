@@ -10,7 +10,7 @@ const Footer = () => {
 
     <div className={style.text}>
         <FooterData title='Company' L1='About' L2='Careers' L3='Team' L4='Swiggy One'/>
-        <FooterData title='Contuct us' L1='Help & Support' L2='Partner with us' L3='Ride with us' L4='Legal'/>
+        <FooterData title='Contact us' L1='Help & Support' L2='Partner with us' L3='Ride with us' L4='Legal'/>
         <FooterData title='We deliver to' L1='Banglore' L2='Gurgaon' L3='Hyderabad' L4='Delhi'/>
 
     </div>
